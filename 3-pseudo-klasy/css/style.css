@@ -1,0 +1,27 @@
+#name:hover {
+    background-color: green;
+}
+
+#name:focus {
+    background-color: yellow;
+}
+
+.customer:first-child {
+    color: lime;
+}
+
+.customer:last-child {
+    color: blue;
+}
+
+.customer:nth-child(3) {
+    background-color: lightpink;
+}
+
+.customer:nth-child(3n + 5) {
+    background-color: aquamarine;
+}
+
+.customer:nth-child(2n + 10) {
+    background-color: bisque;
+}
