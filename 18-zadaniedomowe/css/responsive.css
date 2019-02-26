@@ -1,0 +1,35 @@
+
+@media only screen and (min-width: 1170px) {
+    body { 
+      background-image: url("../img/man-1.jpg");
+      background-size: cover;
+      text-align: left;
+      vertical-align: middle;
+      position: absolute;
+      top: 50%;
+      color: white;
+    }
+  }
+
+@media only screen and (max-width: 1170px) {
+    body { 
+      background-image: url("../img/man-2.jpg");
+      height: 70%; 
+      text-align: right;
+      padding: 40px;
+      color: white;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    body { 
+      background-image: url("../img/man-1.jpg"); 
+      height: 50%;
+      text-align: center;
+      vertical-align: middle;
+      position: absolute;
+      top: 60%;
+      color: black;
+
+    }
+}

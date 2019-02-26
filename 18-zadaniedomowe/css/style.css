@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat; 
+}
+
+.main-header .content {
+    
+    background-position: fixed;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+h1 {
+    font-family: verdana;
+    text-transform: uppercase;
+    position: initial;
+    padding: 15px;
+    font-size: 20px;
+    margin: 0 auto;
+    
+}
+.main-header .content h1 span {
+    display: block;
+    font-size: 30px;
+}
+
